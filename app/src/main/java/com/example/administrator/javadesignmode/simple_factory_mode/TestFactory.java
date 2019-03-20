@@ -1,4 +1,4 @@
-package com.example.administrator.javadesignmode.factory_mode;
+package com.example.administrator.javadesignmode.simple_factory_mode;
 
 
 /**

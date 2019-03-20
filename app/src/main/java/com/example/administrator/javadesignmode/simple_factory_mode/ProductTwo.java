@@ -1,6 +1,4 @@
-package com.example.administrator.javadesignmode.factory_mode;
-
-import android.util.Log;
+package com.example.administrator.javadesignmode.simple_factory_mode;
 
 /**
  * 具体产品

@@ -4,4 +4,4 @@
 
 ##### Now , what we have:
 
-###### 简单工厂模式--->factory_mode
+###### 简单工厂模式--->simple_factory_mode

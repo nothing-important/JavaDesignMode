@@ -6,3 +6,4 @@
 
 ###### 简单工厂模式--->simple_factory_mode
 ###### 方法工厂模式--->function_factory_mode
+###### 单例模式--->single_mode

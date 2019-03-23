@@ -74,7 +74,10 @@ public class SingleInstance {
     /**
      * 静态内部类形式
      * 使用java本身机制保证线程安全
-     *
+     * 静态单例对象没有作为SingleInstance的成员变量直接实例化，因此在类加载时
+     * 不会实例化instance对象，第一次调用getInstanceE()时将加载内部类SingleInstanceHolder
+     * 此时会初始化内部类里面定义的INSTANCE对象，由java虚拟机保证线程安全，确保成员变量只实例化一次
+     * 同时不具有同步锁，性能不会受到影响
      */
     private static class SingleInstanceHolder{
         private static final SingleInstance INSTANCE = new SingleInstance();

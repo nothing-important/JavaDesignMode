@@ -2,6 +2,9 @@ package com.example.administrator.javadesignmode.builder_mode;
 
 import android.os.Build;
 
+/**
+ * 具体Builder
+ */
 public class AppleComputerBuilder extends Builder {
 
     private Computer computer = new AppleComputer();

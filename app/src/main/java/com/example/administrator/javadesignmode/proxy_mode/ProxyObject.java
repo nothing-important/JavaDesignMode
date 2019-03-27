@@ -5,12 +5,12 @@ package com.example.administrator.javadesignmode.proxy_mode;
  */
 public class ProxyObject extends AbstractObject{
 
-    RealObject realObject = new RealObject();
+    private RealObject realObject = new RealObject();
 
     @Override
     void operation() {
-        //被代理对象在真实对象操作之前可以做些什么
+        System.out.print("\n在真实对象操作之前你可以做些什么\n");
         realObject.operation();
-        //被代理对象在真实对象操作之后可以做些什么
+        System.out.print("\n在真实对象操作之后你可以做些什么\n");
     }
 }

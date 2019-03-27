@@ -9,3 +9,4 @@
 ###### 单例模式--->single_mode
 ###### Builder模式--->builder_mode
 ###### 适配器模式--->adapter_mode
+###### 代理模式--->proxy_mode

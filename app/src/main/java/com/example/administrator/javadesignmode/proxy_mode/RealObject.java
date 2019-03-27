@@ -6,6 +6,6 @@ package com.example.administrator.javadesignmode.proxy_mode;
 public class RealObject extends AbstractObject {
     @Override
     void operation() {
-        //具体操作
+        System.out.print("真实对象可以做些什么");
     }
 }

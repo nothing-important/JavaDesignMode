@@ -1,9 +1,9 @@
-package com.example.administrator.javadesignmode.publish_subscribe_mode;
+package com.example.administrator.javadesignmode.publish_subscribe_mode.push_mode;
 
 /**
  * 具体的被观察者角色（具体的主题角色）
  */
-public class J_ConcreteObservable extends J_Observable{
+public class Push_ConcreteObservable extends Push_Observable {
 
     private String state;
 
